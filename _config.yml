@@ -1,0 +1,11 @@
+name: SRCCON
+markdown: kramdown
+kramdown:
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+gems:
+  - jekyll-redirect-from
+exclude: ['*.yml']
+collections:
+  transcripts:
+    output: true
+    permalink: /:collection/:title/
